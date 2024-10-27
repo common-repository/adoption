@@ -1,0 +1,167 @@
+/* Author: Chris Aprea
+
+*/
+
+/* General */
+#adoption_dashboard_widget .inside{
+	margin: 0px;
+}
+
+/* Chart Area */
+.jqplot-xaxis-tick,
+.jqplot-yaxis-tick{
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+.jqplot-highlighter-tooltip{
+	background-color: #fff;
+	padding: 2px 8px 1px;
+	opacity: 1;
+	margin-top: 10px;
+	box-shadow: 0px 0px 2px #fff;
+	overflow: visible;
+	color: #777;
+}
+
+.jqplot-highlighter-tooltip:before{
+	content: '';
+	display: block;
+	width: 0; 
+	height: 0; 
+	border-left: 4px solid transparent;
+	border-top: 4px solid #aaa; 
+	border-right: 4px solid transparent;
+	bottom: -5px;
+	left: 50%;
+	margin-left: -4px;
+	position: absolute;
+}
+
+
+.jqplot-highlighter-tooltip:after{
+	content: '';
+	display: block;
+	width: 0; 
+	height: 0; 
+	border-left: 4px solid transparent;
+	border-top: 4px solid #fff; 
+	border-right: 4px solid transparent;
+	bottom: -4px;
+	left: 50%;
+	margin-left: -4px;
+	position: absolute;
+}
+
+
+.jqplot-highlighter-tooltip, 
+.jqplot-canvasOverlay-tooltip{
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+/* Extra Information Area */
+.stats_info{
+	border-top: 1px solid #dfdfdf;
+	margin: 7px -10px 0 -10px;
+	padding: 10px;
+	background: #fcfcfc;
+	-moz-box-shadow:inset 0 1px 0 #fff;
+	-webkit-box-shadow:inset 0 1px 0 #fff;
+	box-shadow:inset 0 1px 0 #fff;
+	overflow: hidden;
+	border-radius: 0 0 2px 2px;
+	-webkit-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+	-khtml-border-radius: 0 0 2px 2px;
+}
+
+.select_range{
+	margin: 0px -10px 0 -10px;
+	padding: 10px;
+	background: #fcfcfc;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 7px;
+}
+
+.select_range select{
+	width: 120px;
+}
+
+#adoption_dashboard_widget table{
+	width: 100%;
+}
+
+#adoption_dashboard_widget .table_content{
+    border-top: 1px solid #ececec;
+    float: left;
+    width: 55%;
+	position: relative;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+#adoption_dashboard_widget .breakdown.table_content{
+    float: right;
+    width: 40%;
+}
+
+#adoption_dashboard_widget p.sub{
+    color: #8f8f8f;
+    font-size: 14px;
+    padding: 5px 0 15px;
+    position: absolute;
+    top: -45px;
+}
+
+#adoption_dashboard_widget .quick-stats tr td:first-child{
+	width: 38%;
+	font-weight: bold;
+}
+
+#adoption_dashboard_widget .quick-stats tr td:nth-child(2){
+	width: 10%;
+	padding-right: 2%;
+	text-align: right;
+}
+
+#adoption_dashboard_widget .quick-stats tr td:nth-child(3){
+	width: 38%;
+	font-weight: bold;
+	padding-left: 2%;
+}
+
+#adoption_dashboard_widget .quick-stats tr td:nth-child(4){
+	width: 10%;
+	text-align: right;
+}
+
+#adoption_dashboard_widget .breakdown tr td:first-child{
+	width: 80%;
+	font-weight: bold;
+}
+
+#adoption_dashboard_widget .breakdown tr td:nth-child(2){
+	width: 20%;
+	text-align: right;
+}
+
+.no_js{
+	padding-top: 80px;
+	color: #bbb;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	display: block;
+}
+
+.adoption_error{
+	padding-top: 55px;
+	color: #bbb;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	line-height: 1.2em;
+	font-family: sans-serif;
+}
